@@ -1,0 +1,12 @@
+name: AccessPin
+main: com.github.colingrime.AccessPin
+version: @version@
+
+authors: [Scill]
+description: Users must enter a pin to be given access to the server.
+api-version: 1.18
+
+commands:
+  accesspin:
+    description: Main command for the access pin.
+    aliases: [access, pin]

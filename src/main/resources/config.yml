@@ -1,0 +1,17 @@
+general:
+  pin: SecretBuilderPin
+  case-sensitive: true
+  # Kicks the player if they entered the PIN wrong.
+  kick-if-incorrect: false
+  # Time given before the user gets kicked (in seconds).
+  time-given: 60
+  # Time intervals to warn the player.
+  warning-intervals: [30, 10, 5, 4, 3, 2, 1]
+
+messages:
+  enter-pin: '&aPlease enter the PIN to be given access to the server...'
+  correct-pin: '&aYou have been granted access to the server!'
+  wrong-pin: '&cThe PIN you have entered is incorrect.'
+  warning-message: '&cYou have &e%time% seconds &cleft to enter the PIN before you get kicked.'
+  kick-message: '&cYou have been kicked due to not entering the correct PIN.'
+  reload-message: '&eAccessPin &ahas been reloaded!'
